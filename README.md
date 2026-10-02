@@ -16,7 +16,7 @@ The overall path is:
 
 ### 1. Start a job
 
-**What happens:** A weekly scheduler selects eligible organizations and workflows. Alternatively, an admin can request a run through an API, which checks eligibility before queueing it. These are two entry paths into the same core pipeline.
+**What happens:** A weekly scheduler selects eligible organizations and workflows - scheduled policy generation. Alternatively, an admin can request a run through an API - on-demand policy generation, which checks eligibility before queueing it. These are two entry paths into the same core pipeline.
 
 **What it produces:** A job waiting in Redis RQ's `self_improvement_queue`. A queued job is a request to do work; it is not a new policy.
 
