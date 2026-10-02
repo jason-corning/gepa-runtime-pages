@@ -2,7 +2,7 @@
 
 [Explore the interactive diagram](https://jason-corning.github.io/gepa-runtime-pages/)
 
-This repository hosts a point-in-time map of how Forethought generates and evaluates candidate policy improvements. It is written for readers who are new to GEPA.
+This repository hosts a point-in-time map of how Forethought generates and evaluates candidate policy improvements. 
 
 ## Start here
 
