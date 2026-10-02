@@ -6,7 +6,7 @@ This repository hosts a high-level point-in-time map of how Forethought generate
 
 ## Start here
 
-A **policy** is the set of instructions this process is trying to improve. A **candidate** is a proposed version of that policy. **GEPA** is the optimizer that creates and tests candidates using examples from earlier conversations. The diagram shows the runtime around that optimizer: how work starts, where examples come from, how candidates are evaluated, and where results go.
+A **policy** is the set of instructions this process is trying to improve. A **candidate** is a proposed version of that policy. **GEPA** is the optimizer that creates and tests candidates using examples from earlier conversations, human feedback, and any additioanl contexts. The diagram shows the runtime around that optimizer: how work starts, where examples come from, how candidates are evaluated, and where results go.
 
 The overall path is:
 
